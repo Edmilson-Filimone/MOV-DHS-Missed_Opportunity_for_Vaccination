@@ -9,8 +9,8 @@ The analysis follows WHO MOV methodology but adapts the eligibility window to in
 
 To quantify Missed Opportunities for Vaccination (MOV) for Measles–Rubella first dose (MR1) among children 9–59 months, and to assess catch-up vaccination patterns using DHS data.
 
-### **Core Definitions
-Eligibility**
+### **Core Definitions**
+**Eligibility**
 
 *A child is eligible for MR1 if*:
 
