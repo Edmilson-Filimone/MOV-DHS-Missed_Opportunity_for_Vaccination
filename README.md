@@ -5,32 +5,32 @@ This repository contains R scripts for computing Missed Opportunities for Vaccin
 The analysis follows WHO MOV methodology but adapts the eligibility window to include all children old enough to have received MR1 (≥9 months), up to 59 months, allowing analysis of catch-up vaccination, zero-dose, and delayed vaccination among older children.
 
 
-**Objective**
+### **Objective**
 
 To quantify Missed Opportunities for Vaccination (MOV) for Measles–Rubella first dose (MR1) among children 9–59 months, and to assess catch-up vaccination patterns using DHS data.
 
-**Core Definitions
+### **Core Definitions
 Eligibility**
 
 *A child is eligible for MR1 if*:
 
-They are 9–59 months old, and
+- They are 9–59 months old, and
 
-They have vaccination card data.
+- They have vaccination card data.
 
-**Zero-Dose for MR1**
+### **Zero-Dose for MR1**
 
 A child is classified as zero-dose for MR1 if:
 
-MR1 date is missing in the vaccination card and
+* MR1 date is missing in the vaccination card and
 
-Caregiver does not report MR1 and
+* Caregiver does not report MR1 and
 
-Child is within 9–59 months.
+* Child is within 9–59 months.
 
-Contact With Health Services After 9 Months
+* Contact With Health Services After 9 Months
 
-A child had a contact if they received any vaccine at age ≥9 months, including:
+**A child had a contact if they received any vaccine at age ≥9 months, including**:
 
 - PCV, 
 - IPV
@@ -39,8 +39,12 @@ A child had a contact if they received any vaccine at age ≥9 months, including
 - Measles 2nd dose (if older)
 - Any other vaccine recorded after 9 months
 
-**Missed Opportunity for MR1 (MOV)**
+### **Missed Opportunity for MR1 (MOV)**
 
 Defined as:
 
 `MOV_MR1 = 1 if (MR1 zero-dose) AND (received any other vaccine at age ≥9 months)`
+
+
+
+
