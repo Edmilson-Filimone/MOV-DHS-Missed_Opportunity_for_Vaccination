@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="data_zd-data">
+        <SrcDataSource relativeToVRT="1">data_zd.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>data</SrcLayer>
+        <Field name="ADM1_PT" src="ADM1_PT" type="String"/>
+        <Field name="Prevalence" src="Prevalence" type="Real"/>
+        <Field name="Indicator" src="Indicator" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
